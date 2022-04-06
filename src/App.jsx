@@ -2,7 +2,7 @@ import {useState} from "react";
 import "./app.css"
 
 const App = () => {
-    const [cuenta, setCuenta]= useState({valor: 0, paso: 1});
+    const [cuenta, setCuenta]= useState({valor: 0, paso: 5});
   
   const handleMinusClick = (v) =>{
     setCuenta({...cuenta, valor: cuenta.valor - cuenta.paso});
